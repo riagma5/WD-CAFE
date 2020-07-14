@@ -37,6 +37,7 @@ h1 {
 
 h2 {
     font-size: 4rem;
+    line-height: 1.2;
 }
 
 h3 {
@@ -60,6 +61,36 @@ img {
 
 .no-margin {
     margin: 0;
+}
+
+
+/**Botones**/
+
+.btn {
+    display: block;
+    text-align: center;
+    padding: 1rem 3rem;
+    margin: 2rem 0;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.btn-primario {
+    background-color: #000000;
+}
+
+@media(min-width: 768px) {
+    .btn {
+        display: inline-block;
+    }
+}
+
+.btn-secundario {
+    background-color: #784d3c;
 }
 
 
@@ -186,4 +217,31 @@ img {
 
 .entrada-blog:last-of-type {
     border: none;
+}
+
+
+/**Cursos SideBar**/
+
+.cursos-lista {
+    padding: 0;
+    list-style: none;
+}
+
+.curso {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.curso :last-of-type {
+    border-bottom: none;
+}
+
+.curso p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.curso p span {
+    font-weight: 400;
 }
